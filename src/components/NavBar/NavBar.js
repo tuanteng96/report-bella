@@ -47,52 +47,52 @@ const MenuList = [
         Title: 'Chi tiêu',
         Href: '/khach-hang/chi-tieu'
       },
-      {
-        Title: 'Sử dụng dịch vụ',
-        Href: '/khach-hang/su-dung-dich-vu'
-      },
+      // {
+      //   Title: 'Sử dụng dịch vụ',
+      //   Href: '/khach-hang/su-dung-dich-vu'
+      // },
       {
         Title: 'Dự kiến',
         Href: '/khach-hang/du-kien'
-      },
-      {
-        Title: 'Tần suất sử dụng',
-        Href: '/khach-hang/tan-suat-su-dung'
-      },
-      {
-        Title: 'Chuyển đổi',
-        Href: '/khach-hang/chuyen-doi'
       }
+      // {
+      //   Title: 'Tần suất sử dụng',
+      //   Href: '/khach-hang/tan-suat-su-dung'
+      // },
+      // {
+      //   Title: 'Chuyển đổi',
+      //   Href: '/khach-hang/chuyen-doi'
+      // }
     ]
   },
-  {
-    Title: 'Dịch vụ',
-    TitleKey: 'DICH_VU',
-    IconClass: 'fa-regular fa-chart-waterfall icon',
-    Href: '/dich-vu',
-    Children: [
-      {
-        Title: 'Tổng quan - Doanh số',
-        Href: '/dich-vu/tong-quan'
-      },
-      {
-        Title: 'Báo cáo nghiệp vụ',
-        Href: '/dich-vu/bao-cao-nghiep-vu'
-      },
-      {
-        Title: 'Dịch vụ điểm này, sử dụng điểm khác',
-        Href: '/dich-vu/dv-diem-sd-diem-khac'
-      },
-      {
-        Title: 'Tồn dịch vụ',
-        Href: '/dich-vu/ton-dich-vu'
-      },
-      {
-        Title: 'Báo cáo đặt lịch',
-        Href: '/dich-vu/bao-cao-dat-lich'
-      }
-    ]
-  },
+  // {
+  //   Title: 'Dịch vụ',
+  //   TitleKey: 'DICH_VU',
+  //   IconClass: 'fa-regular fa-chart-waterfall icon',
+  //   Href: '/dich-vu',
+  //   Children: [
+  //     {
+  //       Title: 'Tổng quan - Doanh số',
+  //       Href: '/dich-vu/tong-quan'
+  //     },
+  //     {
+  //       Title: 'Báo cáo nghiệp vụ',
+  //       Href: '/dich-vu/bao-cao-nghiep-vu'
+  //     },
+  //     {
+  //       Title: 'Dịch vụ điểm này, sử dụng điểm khác',
+  //       Href: '/dich-vu/dv-diem-sd-diem-khac'
+  //     },
+  //     {
+  //       Title: 'Tồn dịch vụ',
+  //       Href: '/dich-vu/ton-dich-vu'
+  //     },
+  //     {
+  //       Title: 'Báo cáo đặt lịch',
+  //       Href: '/dich-vu/bao-cao-dat-lich'
+  //     }
+  //   ]
+  // },
   {
     Title: 'Bán hàng',
     TitleKey: 'BAN_HANG',
@@ -104,7 +104,7 @@ const MenuList = [
         Href: '/ban-hang/doanh-so'
       },
       {
-        Title: 'Sản phẩm, dịch vụ bán ra',
+        Title: 'Sản phẩm bán ra',
         Href: '/ban-hang/sp-dv-ban-ra'
       },
       {
@@ -119,22 +119,22 @@ const MenuList = [
         Title: 'Top bán hàng, doanh số',
         Href: '/ban-hang/top-ban-hang-doanh-so'
       },
-      {
-        Title: 'Doanh số giảm trừ ( kết thúc thẻ, xóa buổi )',
-        Href: '/ban-hang/doanh-so-giam-tru'
-      },
+      // {
+      //   Title: 'Doanh số giảm trừ ( kết thúc thẻ, xóa buổi )',
+      //   Href: '/ban-hang/doanh-so-giam-tru'
+      // },
       {
         Title: 'Bảng giá',
         Href: '/ban-hang/bang-gia'
       },
-      {
-        Title: 'Lợi nhuận',
-        Href: '/ban-hang/loi-nhuan'
-      },
-      {
-        Title: 'Doanh số thực thu',
-        Href: '/ban-hang/doanh-so-thuc-thu'
-      },
+      // {
+      //   Title: 'Lợi nhuận',
+      //   Href: '/ban-hang/loi-nhuan'
+      // },
+      // {
+      //   Title: 'Doanh số thực thu',
+      //   Href: '/ban-hang/doanh-so-thuc-thu'
+      // },
       {
         Title: 'Báo cáo hoa hồng',
         Href: '/ban-hang/bao-cao-hoa-hong'
@@ -167,58 +167,58 @@ const MenuList = [
         Title: 'Công nợ',
         Href: '/cong-no/danh-sach'
       },
-      {
-        Title: 'Báo cáo khóa nợ',
-        Href: '/cong-no/khoa-no'
-      },
+      // {
+      //   Title: 'Báo cáo khóa nợ',
+      //   Href: '/cong-no/khoa-no'
+      // },
       {
         Title: 'Báo cáo tặng',
         Href: '/cong-no/tang'
       }
     ]
   },
-  {
-    Title: 'Nhân viên',
-    TitleKey: 'NHAN_VIEN',
-    IconClass: 'fa-regular fa-chart-candlestick icon',
-    Href: '/nhan-vien',
-    Children: [
-      {
-        Title: 'Lương ca dịch vụ',
-        Href: '/nhan-vien/luong-ca-dich-vu'
-      },
-      {
-        Title: 'Hoa hồng',
-        Href: '/nhan-vien/hoa-hong'
-      },
-      {
-        Title: 'Doanh số',
-        Href: '/nhan-vien/doanh-so'
-      },
-      {
-        Title: 'Bảng lương',
-        Href: '/nhan-vien/bang-luong'
-      }
-    ]
-  },
+  // {
+  //   Title: 'Nhân viên',
+  //   TitleKey: 'NHAN_VIEN',
+  //   IconClass: 'fa-regular fa-chart-candlestick icon',
+  //   Href: '/nhan-vien',
+  //   Children: [
+  //     {
+  //       Title: 'Lương ca dịch vụ',
+  //       Href: '/nhan-vien/luong-ca-dich-vu'
+  //     },
+  //     {
+  //       Title: 'Hoa hồng',
+  //       Href: '/nhan-vien/hoa-hong'
+  //     },
+  //     {
+  //       Title: 'Doanh số',
+  //       Href: '/nhan-vien/doanh-so'
+  //     },
+  //     {
+  //       Title: 'Bảng lương',
+  //       Href: '/nhan-vien/bang-luong'
+  //     }
+  //   ]
+  // },
   {
     Title: 'Tồn kho',
     TitleKey: 'TON_KHO',
     IconClass: 'fa-regular fa-chart-pie icon',
     Href: '/ton-kho',
     Children: [
-      {
-        Title: 'Tồn kho',
-        Href: '/ton-kho/danh-sach'
-      },
-      {
-        Title: 'Tiêu hao',
-        Href: '/ton-kho/tieu-hao'
-      },
-      {
-        Title: 'Nguyên vật liệu dự kiến',
-        Href: '/ton-kho/du-kien-nvl'
-      }
+      // {
+      //   Title: 'Tồn kho',
+      //   Href: '/ton-kho/danh-sach'
+      // }
+      // {
+      //   Title: 'Tiêu hao',
+      //   Href: '/ton-kho/tieu-hao'
+      // },
+      // {
+      //   Title: 'Nguyên vật liệu dự kiến',
+      //   Href: '/ton-kho/du-kien-nvl'
+      // }
     ]
   },
   {
@@ -294,15 +294,15 @@ const MenuList = [
       {
         Title: 'Báo cáo ví',
         Href: '/khac/bao-cao-vi'
-      },
-      {
-        Title: 'Báo cáo thẻ tiền',
-        Href: '/khac/bao-cao-the-tien'
-      },
-      {
-        Title: 'Báo cáo sử dụng thẻ tiền',
-        Href: '/khac/bao-cao-su-dung-the-tien'
       }
+      // {
+      //   Title: 'Báo cáo thẻ tiền',
+      //   Href: '/khac/bao-cao-the-tien'
+      // },
+      // {
+      //   Title: 'Báo cáo sử dụng thẻ tiền',
+      //   Href: '/khac/bao-cao-su-dung-the-tien'
+      // }
       // {
       //   Title: 'Lợi nhuận',
       //   Href: '/khac/loi-nhuan'
