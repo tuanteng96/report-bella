@@ -156,7 +156,7 @@ function Commission(props) {
         title: 'Trạng thái',
         dataKey: 'TrangThai',
         cellRenderer: ({ rowData }) =>
-          rowData?.TrangThai === 'da_kich_hoat' > 0
+          rowData?.TrangThai === 'da_kich_hoat'
             ? 'Đã kích hoạt'
             : 'Chờ thanh toán',
         width: 200,
