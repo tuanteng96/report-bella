@@ -34,6 +34,7 @@ function Commission(props) {
   const [ListData, setListData] = useState([])
   const [loading, setLoading] = useState(false)
   const [PageTotal, setPageTotal] = useState(0)
+  const [TotalValue, setTotalValue] = useState(0)
   const [pageCount, setPageCount] = useState(0)
   const [initialValuesMobile, setInitialValuesMobile] = useState(null)
   const [isModalMobile, setIsModalMobile] = useState(false)
@@ -65,15 +66,17 @@ function Commission(props) {
           PermissionHelpers.ErrorAccess(data.error)
           setLoading(false)
         } else {
-          const { Items, Total, PCount } = {
+          const { Items, Total, PCount, TotalValue } = {
             Items: data.result?.Items || [],
             Total: data.result?.Total || 0,
-            PCount: data?.result?.PCount || 0
+            PCount: data?.result?.PCount || 0,
+            TotalValue: data?.result?.TotalValue || 0
           }
           setListData(Items)
           setLoading(false)
           setPageCount(PCount)
           setPageTotal(Total)
+          setTotalValue(TotalValue)
           isFilter && setIsFilter(false)
           callback && callback()
           PermissionHelpers.HideErrorAccess()
@@ -232,6 +235,12 @@ function Commission(props) {
       <div className="bg-white rounded">
         <div className="px-20px py-15px border-bottom border-gray-200 d-flex align-items-center justify-content-between">
           <div className="fw-500 font-size-lg">Danh sách hoa hồng</div>
+          <div>
+            Tổng{' '}
+            <span className="font-size-lg fw-600 text-success">
+              {PriceHelper.formatVND(TotalValue)}
+            </span>
+          </div>
         </div>
         <div className="p-20px">
           <ReactTableV7
